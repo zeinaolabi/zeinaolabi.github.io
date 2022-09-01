@@ -1,0 +1,68 @@
+body{
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+}
+
+table{
+    background-color: lightgray;
+    width: 600px;
+    display: inline-block;
+    padding: 30px
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height:100px;
+    padding-top:20px;
+    width: 600px;
+    color: rgb(105, 53, 53);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td{
+    padding:6px;
+}
+
+.buttonPlaceholder{
+    text-align: center;
+    padding-top: 40px;
+} 
+
+input[type="submit"]{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgb(70, 69, 69),rgb(72, 71, 71), rgb(124, 119, 119), rgb(154, 151, 151));
+    width:140px;
+    height:40px;
+    border: solid gray 1px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+p{
+    color: rgb(105, 53, 53);
+}
+
+span{
+    color: rgb(144, 70, 70);
+}
+
+.date{
+    font-size: 10;
+    color: gray
+}
+
+.question{
+    padding-top: 55px
+}
+
+input[type="date"], input[type="text"]{
+    width: 230px;
+    height: 30px
+}
+
